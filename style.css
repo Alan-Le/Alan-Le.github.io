@@ -1,0 +1,152 @@
+body {
+  font-family: 'Poiret One', cursive; /*Custom font for website*/
+  background: black;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%
+}
+p {
+  color: beige;
+  text-align: center;
+  font-family: fantasy
+}
+h1 {
+  font-family: 'Monoton', cursive;
+  text-align: center;
+  text-shadow: 7px 7px 7px;
+  color: white;
+}
+h3{
+  text-align: center;
+  color: beige;
+  font-family: 'Poiret One', cursive;
+}
+h2{
+  text-align: center;
+  font-family: cursive;
+  color: beige;
+  text-shadow: 7px 7px 7px;
+}
+img{
+  border-radius: 75px;
+  width: 555px;
+  align-content: center;
+  display: block;
+  margin: auto;
+}
+.nav {
+  list-style-type: none;
+  margin:-8px;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+.nav li{
+  float: left;
+}
+.nav li a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  font-family: sans-serif;
+  padding: 14px 16px;
+}
+.nav li a:hover {
+  color: darkgoldenrod;
+  background: beige;
+}
+ul {
+  text-align: center;
+  list-style-type: none;
+  color: beige;
+}
+li {
+  text-align: center;
+  list-style-type: none;
+  font-family: cursive;
+}
+
+#content{
+  border-style: solid;
+  border-width: 4px;
+  border-color: transparent;
+  margin-top: 20px;
+  width: 68%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-bottom: 20px;
+  background-color: transparent;
+}
+table {
+  margin: auto;
+  color: white;
+}
+#content ul, #content ol{
+  width: 25%;
+  margin: auto;
+}
+#home {
+  background-image: url(background.jpg);
+}
+#about {
+  background-image: url(tree.jpg);
+}
+#resume {
+  background-image: url(suit.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+#portfolio {
+  background-image: url(wood.jpg);
+}
+#heading {
+  color: black;
+}
+#list {
+  color: beige;
+  text-align-last: left;
+}
+#another {
+  color: beige;
+  text-align-last: left;
+}
+hr {
+  color: rgb(66, 244, 241);
+}
+#head {
+  color: white;
+}
+#tag {
+  text-align-last: left;
+}
+#hey {
+  text-align-last: left;
+}
+#school {
+  text-align-last: left;
+}
+#education {
+  text-align-last: left;
+}
+#paragraph {
+  text-align-last: right;
+  float: right;
+  color: white;
+}
+#hi {
+  text-align-last: right;
+}
+#fail {
+  color: white;
+  text-align-last: center;
+}
+#food {
+  color: white;
+  text-align-last: center;
+}
+#movies {
+  color: white;
+  text-align-last: center;
+}
